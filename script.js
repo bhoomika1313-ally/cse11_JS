@@ -40,11 +40,95 @@ console.log(result3);
 let result4 = c/d;
 console.log(result4);
 let result5 = c%d;
-console.log(result5);*/
+console.log(result5);
 
 var count;
 document.write("starting loop" + "<br/>");
-for(count = 0; count < 10; count++){
+for(count = 0; count < 10; count++){ //initialization 1 time, condition n + 1 times, increment n times
     document.write("current count: " + count);
     document.write("<br/>");}
-    document.write("loop ended");
+    document.write("loop ended");*/
+
+//for (let x in person){
+    //console.log("" + x + ": " + person[x]);}
+
+
+    const person = {
+    name: "John",
+    age: 30,
+    city: "New York"
+};
+for (let b in person) {
+    console.log(b + ": " + person[b]);
+}
+
+/*var count = 0;
+document.write("starting loop" + "<br/>");
+while(count < 10){
+    document.write("current count: " + count+ "<br/>");
+    count++;
+}
+
+var age = 20;
+if (age < 18) {
+    document.write("Too young to vote");
+}
+
+var age = 13;
+if (age < 18) {
+    document.write("you minor af");
+}
+else {
+    document.write("you can vote");
+}
+
+var grade = "a";
+document.write("blah blah blah <br/>");
+switch (grade) {
+    case "a": document.write("excellent");
+    break;
+    case "b": document.write("good");
+    break;
+    case "c": document.write("average");
+    break;
+    case "d": document.write("below average");
+    break;
+    case "f": document.write("fail");
+    break;
+    default: document.write("invalid grade");
+    } */
+
+// we can use default case anywhere in the switch statement, but it is usually placed at the end for better readability
+
+let day = "wednesday";
+switch(day){
+    case "monday": console.log("monday nay");
+    break;
+    case "tuesday": console.log("tuesday ok");
+    break;
+    case "wednesday": console.log("wednesday meh");
+    break;
+    case "thursday": console.log("thursday almost there");
+    break;
+    case "friday": console.log("friday yay");
+    break;
+    case "saturday": console.log("saturday fun");
+    break;
+    case "sunday": console.log("sunday relax");
+    break;
+    default: console.log("invalid day");
+} 
+
+/*function functinname {parameter-list}
+{}*/
+
+function myFunction(){
+    alert("Hello, this is a function!");
+}
+
+function hey(){
+    alert("stay woke");}
+
+function say(name,age){
+    document.write("Hello " + name + ", you are " + age + " years old.");
+}
