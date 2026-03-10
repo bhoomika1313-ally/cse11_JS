@@ -53,7 +53,7 @@ for(count = 0; count < 10; count++){ //initialization 1 time, condition n + 1 ti
     //console.log("" + x + ": " + person[x]);}
 
 
-    const person = {
+   /* const person = {
     name: "John",
     age: 30,
     city: "New York"
@@ -96,7 +96,7 @@ switch (grade) {
     case "f": document.write("fail");
     break;
     default: document.write("invalid grade");
-    } */
+    } 
 
 // we can use default case anywhere in the switch statement, but it is usually placed at the end for better readability
 
@@ -117,12 +117,12 @@ switch(day){
     case "sunday": console.log("sunday relax");
     break;
     default: console.log("invalid day");
-} 
+} */
 
 /*function functinname {parameter-list}
-{}*/
+{}*/ ///it is not anonymous 
 
-function myFunction(){
+/*function myFunction(){
     alert("Hello, this is a function!");
 }
 
@@ -131,4 +131,33 @@ function hey(){
 
 function say(name,age){
     document.write("Hello " + name + ", you are " + age + " years old.");
-}
+}*/
+
+//arrow function 
+let mul = (x,y) => {console.log(x*y);};
+mul(5,10);
+
+//array is a special type of object that can hold multiple values in a single variable. It is a collection of elements, where each element can be of any data type, including numbers, strings, objects, and even other arrays.
+//  Arrays are ordered, meaning that the elements are stored in a specific sequence and can be accessed using their index. The index of the first element is 0, the second element is 1, and so on. Arrays are commonly used to store and manipulate lists of data in programming languages.
+var myinfo = new Array();
+var myinfo2 = Array();
+
+let collection = [{},[],true,"bhoomika",function(){},13,undefined,
+null,new String("hey"), new Date()];
+collection.teachername = "bhoomika";
+collection.phonenumber = 1234567890;
+
+console.log(collection);
+
+console.log(collection[0]);
+console.log(collection[1]);
+console.log(collection[2]);
+console.log(collection[3]);
+console.log(collection[4]);
+console.log(collection[5]);
+console.log(collection[6]);
+console.log(collection[7]);
+console.log(collection[8]);
+console.log(collection[9]);
+console.log(collection.length);
+
