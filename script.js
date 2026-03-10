@@ -161,3 +161,8 @@ console.log(collection[8]);
 console.log(collection[9]);
 console.log(collection.length);
 
+// DOM document obejct model is a programming interface for web documents. 
+// It represents the structure of a document as a tree of objects, where each object corresponds to a part of the document, such as an element, attribute, or text node. The DOM allows developers to manipulate the content and structure of a web page dynamically using JavaScript.
+// With the DOM, you can access and modify elements, change their attributes, add or remove elements, and respond to user interactions. It is an essential part of web development and is supported by all modern web browsers.
+
+// document object is the property of window object that represents the web page loaded in the browser. It provides methods and properties to access and manipulate the content of the web page. The document object is the entry point to the DOM and allows developers to interact with the elements, attributes, and text nodes of a web page using JavaScript.
