@@ -100,3 +100,13 @@ function onhandleblur(){
 function onLoad(){
   alert("the page has loaded");
 }
+
+// json javascript object notation, it is a lightweight data interchange format that
+//  is easy for humans to read and write, and easy for machines to parse and generate.
+//  It is commonly used for transmitting data between a server and a web application 
+// as an alternative to XML. JSON is built on two structures: a collection of name/value
+//  pairs (often realized as an object) and an ordered list of values
+//  (often realized as an array).
+
+
+memebers[0].powers[2] // this is how we can access the properties of an object in json
