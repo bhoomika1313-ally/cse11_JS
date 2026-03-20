@@ -5,3 +5,40 @@ button onclick="myFunction()">Click me</button>
 <form>
     <input type="button" onclick = "say('bhoomika',19)" value = "click me">
 </form>
+
+
+<div id = "para">   </div>
+<p class="p1"></p>
+<p class="p1"></p>
+<p class="p1"></p>
+<ul>
+    <li> bhoomika </li>
+    <li> mannat </li>
+    <li> bhavya </li>
+</ul>
+<ul>
+    <li> aadi </li>
+    <li> ayushman </li>
+    <li> sid </li>
+</ul>
+<ul> 
+    <li> 13 </li>
+    <li> 19 </li>
+    <li> 02 </li>
+</ul>
+<h4 id = "my" class = "democlass" > i hate this college sm </h4>
+<p id = "d"> hey 13 </p>
+<!--<button onclick = "my()" > click on me!!! </button>-->
+
+<button onclick = "onClick()"> Click me! </button>
+<br><br>
+<button onmouseover = "onMouseHover()"> Hover me! </button>
+<br><br>
+<button onmouseout = "onMouseOut()"> Mouse out me! </button>
+<br><br>
+<button onmousedown = "onMouseDown()"> Mouse down me! </button>
+<br><br>
+<button onmouseup = "onMouseUp()"> Mouse up me! </button>
+<br><br>
+<button onmousemove = "onMouseMove()"> Mouse move me! </button>
+ 
