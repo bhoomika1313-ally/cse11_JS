@@ -44,3 +44,13 @@ fetch("https://jsonplaceholder.typicode.com/users")
 .then(response => response.json())
 .then(data => console.log(data))
 .catch (error => console.log(error));
+
+var name1 = loaclStorage.getItem("name");
+console.log(name1);
+
+var user1 = {
+    name: "John",
+    age: 30,
+    city: "New York"
+};
+localStorage.setItem("user", JSON.stringify(user1));
